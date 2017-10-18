@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Zelus/.android/build-cache/3dab02053ffae5cb02ed0b50fc98321e478fdc35/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_44866dd5a27c05dccf2c1e4fe2b456bb08e270aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Zelus/.android/build-cache/6d90689bd7de38b12bdae58ba1320bba5bbfeb0a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_90d77b17abe3a8abda5828663f8368e0bbc3d1c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Zelus/.android/build-cache/e8326146e29f98911622a8e66ef142af8c1834b5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f81c2421b45191df6c148ebddcdcb9d42b9acf22/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Zelus/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.1.0_04f56164bbf09f9fbd4ddc5e546acb9041afb572/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Zelus/.android/build-cache/d8f85d60b95fa5e8656dd4573d86405dd0f5f538/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b2582e1f8f9b67d512ec316e49c19c4cbf784f88/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Zelus/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/transforms/dex/debug/folders/1000/10/common-1.0.0_c51bd2353496dd33df00e0729dfebe6ba6631717/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Zelus/.android/build-cache/30c76e1714b2505f2737b5f614e9a2b44ff770ca/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fcb188b73ac71fe087c87a34c3c0e5da32731678/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Zelus/.android/build-cache/6c18802609cdfc26b8a0735c2fc24a7786a62d69/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="80d9ff49e99ff481062ea190b43e8d6bdffd4ddc">
+        <dex dex="/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_13de4f4bcfd0f51fcc1d49503232277f3818a82d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Zelus/.android/build-cache/3c53dda7461f3ff4ddc0b164efb5d4957351c312/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_482967b8c11b1d2f2447149366b01f5e0f909858/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Zelus/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/transforms/dex/debug/folders/1000/10/common-1.0.0_fbfab9f2e62ea96b82a18ee836cfef0e9c0249a2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="60d8d709baf8fea9f54acd8f46d9251473003099">
+        <dex dex="/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b59af14fed5bfe86887554a9ba2625965c8acda1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Zelus/.android/build-cache/14c29bb8e72a092580c1e3fc8b18b8d41b2b3e1f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2baeecf06fdcc49e811c7f58528f3b39d2afb26c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Zelus/.android/build-cache/bffabac4ab687a6abc4b85adaa2a46aeb9711542/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b4d6fbbb48b42dd03fd9c5a09b3b7a53266df6ed">
+        <dex dex="/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_19022d9d41f403f6e0b59beaf3fbf4300e336a38/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Zelus/.android/build-cache/500e411b48c9f6c7c60e430198b263b7b982e85e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e0381f3d4000216b217925d70a6cad1e0e4ead9a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e8e4b0b26f398ed1238395589f428c3b5e0a495c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Zelus/.android/build-cache/ae047d2313669c38e0dfc1c7e47a5dfe96c2fe07/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_527344447c3ee9ddd6d2cc7b8f1ca8bae666fa6e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Zelus/.android/build-cache/55d9937c552180f93c9d835fd5ba515f4c0e9552/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e64cbee267258dc73a233e0ec3b022c0c0a67ecc/classes.dex" />
+    </item>
+
+</items>

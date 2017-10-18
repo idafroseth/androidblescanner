@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png",
+        "source": "/Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/res/merged/debug/drawable-mdpi/ic_action_refresh.png",
+        "source": "/Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/res/drawable-mdpi/ic_action_refresh.png"
+    }
+]

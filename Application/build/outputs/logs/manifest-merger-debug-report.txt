@@ -1,0 +1,121 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:17:1-50:12
+	package
+		ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:18:5-58
+	android:versionName
+		ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:20:5-30
+		INJECTED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:19:5-28
+		INJECTED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:17:11-69
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:22:5-74
+	android:name
+		ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:22:22-71
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:23:22-65
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:24:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:25:5-79
+	android:name
+		ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:25:22-76
+application
+ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:27:5-48:19
+MERGED from [com.android.support:support-v13:26.1.0] /Users/Zelus/.android/build-cache/6c18802609cdfc26b8a0735c2fc24a7786a62d69/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/Zelus/.android/build-cache/bffabac4ab687a6abc4b85adaa2a46aeb9711542/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/Zelus/.android/build-cache/14c29bb8e72a092580c1e3fc8b18b8d41b2b3e1f/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/Zelus/.android/build-cache/3c53dda7461f3ff4ddc0b164efb5d4957351c312/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/Zelus/.android/build-cache/500e411b48c9f6c7c60e430198b263b7b982e85e/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/Zelus/.android/build-cache/3dab02053ffae5cb02ed0b50fc98321e478fdc35/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/Zelus/.android/build-cache/30c76e1714b2505f2737b5f614e9a2b44ff770ca/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/Zelus/.android/build-cache/e8326146e29f98911622a8e66ef142af8c1834b5/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/Zelus/.android/build-cache/d8f85d60b95fa5e8656dd4573d86405dd0f5f538/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/Zelus/.android/build-cache/55d9937c552180f93c9d835fd5ba515f4c0e9552/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/Zelus/.android/build-cache/6d90689bd7de38b12bdae58ba1320bba5bbfeb0a/output/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/Zelus/.android/build-cache/ae047d2313669c38e0dfc1c7e47a5dfe96c2fe07/output/AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:30:9-41
+	android:allowBackup
+		ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:28:9-35
+	android:icon
+		ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:29:9-45
+	android:theme
+		ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:31:9-40
+activity#com.zenser.ble.MainActivity
+ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:32:9-39:20
+	android:label
+		ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:34:13-45
+	android:name
+		ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:33:13-55
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:35:13-38:29
+action#android.intent.action.MAIN
+ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:37:27-74
+service#com.example.android.bluetoothadvertisements.AdvertiserService
+ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:43:9-47:19
+	android:enabled
+		ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:45:13-35
+	android:exported
+		ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml:44:13-46
+uses-sdk
+INJECTED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:support-v13:26.1.0] /Users/Zelus/.android/build-cache/6c18802609cdfc26b8a0735c2fc24a7786a62d69/output/AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/Zelus/.android/build-cache/bffabac4ab687a6abc4b85adaa2a46aeb9711542/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/Zelus/.android/build-cache/14c29bb8e72a092580c1e3fc8b18b8d41b2b3e1f/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.1.0] /Users/Zelus/.android/build-cache/3c53dda7461f3ff4ddc0b164efb5d4957351c312/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/Zelus/.android/build-cache/500e411b48c9f6c7c60e430198b263b7b982e85e/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/Zelus/.android/build-cache/3dab02053ffae5cb02ed0b50fc98321e478fdc35/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/Zelus/.android/build-cache/30c76e1714b2505f2737b5f614e9a2b44ff770ca/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/Zelus/.android/build-cache/e8326146e29f98911622a8e66ef142af8c1834b5/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/Zelus/.android/build-cache/d8f85d60b95fa5e8656dd4573d86405dd0f5f538/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/Zelus/.android/build-cache/55d9937c552180f93c9d835fd5ba515f4c0e9552/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/Zelus/.android/build-cache/6d90689bd7de38b12bdae58ba1320bba5bbfeb0a/output/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/Zelus/.android/build-cache/ae047d2313669c38e0dfc1c7e47a5dfe96c2fe07/output/AndroidManifest.xml:20:5-22:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v13:26.1.0] /Users/Zelus/.android/build-cache/6c18802609cdfc26b8a0735c2fc24a7786a62d69/output/AndroidManifest.xml:23:9-52
+	android:targetSdkVersion
+		INJECTED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v13:26.1.0] /Users/Zelus/.android/build-cache/6c18802609cdfc26b8a0735c2fc24a7786a62d69/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/Zelus/.android/build-cache/bffabac4ab687a6abc4b85adaa2a46aeb9711542/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/Zelus/.android/build-cache/14c29bb8e72a092580c1e3fc8b18b8d41b2b3e1f/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/Zelus/.android/build-cache/3c53dda7461f3ff4ddc0b164efb5d4957351c312/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/Zelus/.android/build-cache/500e411b48c9f6c7c60e430198b263b7b982e85e/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/Zelus/.android/build-cache/3dab02053ffae5cb02ed0b50fc98321e478fdc35/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/Zelus/.android/build-cache/30c76e1714b2505f2737b5f614e9a2b44ff770ca/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/Zelus/.android/build-cache/e8326146e29f98911622a8e66ef142af8c1834b5/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/Zelus/.android/build-cache/d8f85d60b95fa5e8656dd4573d86405dd0f5f538/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/Zelus/.android/build-cache/55d9937c552180f93c9d835fd5ba515f4c0e9552/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/Zelus/.android/build-cache/6d90689bd7de38b12bdae58ba1320bba5bbfeb0a/output/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v13:26.1.0] /Users/Zelus/.android/build-cache/6c18802609cdfc26b8a0735c2fc24a7786a62d69/output/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v13:26.1.0] /Users/Zelus/.android/build-cache/6c18802609cdfc26b8a0735c2fc24a7786a62d69/output/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/Zelus/.android/build-cache/ae047d2313669c38e0dfc1c7e47a5dfe96c2fe07/output/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/Zelus/.android/build-cache/ae047d2313669c38e0dfc1c7e47a5dfe96c2fe07/output/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/Zelus/.android/build-cache/ae047d2313669c38e0dfc1c7e47a5dfe96c2fe07/output/AndroidManifest.xml:26:13-58

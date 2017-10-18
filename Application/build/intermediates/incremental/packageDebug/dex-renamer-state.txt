@@ -1,0 +1,7 @@
+#Wed Oct 18 19:39:16 CEST 2017
+base.0=/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e8e4b0b26f398ed1238395589f428c3b5e0a495c
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b59af14fed5bfe86887554a9ba2625965c8acda1/classes.dex
+base.1=/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b59af14fed5bfe86887554a9ba2625965c8acda1
+file.0=/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e8e4b0b26f398ed1238395589f428c3b5e0a495c/classes.dex
