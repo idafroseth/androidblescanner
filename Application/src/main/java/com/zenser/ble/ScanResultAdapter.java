@@ -90,7 +90,6 @@ public class ScanResultAdapter extends BaseAdapter {
         deviceNameView.setText(name);
         deviceAddressView.setText(scanResult.getDevice().getAddress());
         lastSeenView.setText(getTimeSinceString(mContext, scanResult.getTimestampNanos()));
-
         power.setImageDrawable(ContextCompat.getDrawable(mContext,getSignalStrengthIndication(scanResult.getRssi())));
 
 

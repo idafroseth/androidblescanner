@@ -1,4 +1,6 @@
-/*
+/****
+ * THIS BLE SCANNER IS BUILT ON TOP OF THE ANDROID DEMO BLE APP
+ *
  * Copyright (C) 2015 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -29,6 +31,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
+import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -45,6 +48,7 @@ import java.util.Map;
 public class MainActivity extends FragmentActivity {
 
     private static final int REQUEST_CODE_ASK_MULTIPLE_PERMISSIONS = 1001;
+    private static final String LOG_TAG = "MainActivity";
     private BluetoothAdapter mBluetoothAdapter;
 
     @Override
@@ -52,7 +56,7 @@ public class MainActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         if (Build.VERSION.SDK_INT >= 23) {
             // Marshmallow+ Permission APIs
-            fuckMarshMallow();
+            setUpPermissionsForMarshmallow();
         }
 
         setContentView(R.layout.activity_main);
@@ -144,6 +148,23 @@ public class MainActivity extends FragmentActivity {
         view.setText(getString(messageId));
     }
 
+    /**
+     * @Todo here you should add the connect logic
+     * @param deviceAddress
+     */
+    public void onBleDeviceSelected(String deviceAddress){
+        Log.d(LOG_TAG, "The clicked device are: " + deviceAddress);
+        Toast.makeText(this, "You are trying to connect to: " + deviceAddress + " but the developer has not implemented the logic",Toast.LENGTH_LONG).show();
+    }
+
+
+    /**
+     * Request all the required permission
+     *
+     * @param requestCode
+     * @param permissions
+     * @param grantResults
+     */
     @Override
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
         switch (requestCode) {
@@ -184,7 +205,7 @@ public class MainActivity extends FragmentActivity {
 
 
     @TargetApi(Build.VERSION_CODES.M)
-    private void fuckMarshMallow() {
+    private void setUpPermissionsForMarshmallow() {
         List<String> permissionsNeeded = new ArrayList<String>();
 
         final List<String> permissionsList = new ArrayList<String>();

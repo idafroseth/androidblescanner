@@ -17,6 +17,8 @@
 package com.zenser.ble;
 
 import android.bluetooth.BluetoothAdapter;
+import android.bluetooth.BluetoothClass;
+import android.bluetooth.BluetoothDevice;
 import android.bluetooth.le.BluetoothLeScanner;
 import android.bluetooth.le.ScanCallback;
 import android.bluetooth.le.ScanFilter;
@@ -32,6 +34,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.Toast;
 
 import com.example.android.bluetoothadvertisements.R;
@@ -43,6 +46,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Scans for Bluetooth Low Energy Advertisements matching a filter and displays them to the user.
+ * @Todo Add a feature which makes a scan when dragging the window
  */
 public class ScannerFragment extends ListFragment {
 
@@ -52,6 +56,7 @@ public class ScannerFragment extends ListFragment {
      * Stops scanning after 5 seconds.
      */
     private static final long SCAN_PERIOD = 5000;
+    private static final String LOG_TAG = "ScannerFragment";
 
     private BluetoothAdapter mBluetoothAdapter;
 
@@ -107,6 +112,17 @@ public class ScannerFragment extends ListFragment {
 
         getListView().setDivider(null);
         getListView().setDividerHeight(0);
+        getListView().setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parentView, View view, int position, long l) {
+                ScanResult scan = (ScanResult) parentView.getItemAtPosition(position);
+                BluetoothDevice device = scan.getDevice();
+                if(device != null){
+
+                    ((MainActivity) getActivity()).onBleDeviceSelected(device.getAddress());
+                }
+            }
+        });
 
         setEmptyText(getString(R.string.empty_list));
 
@@ -183,7 +199,7 @@ public class ScannerFragment extends ListFragment {
 
         ScanFilter.Builder builder = new ScanFilter.Builder();
         // Comment out the below line to see all BLE devices around you
-       builder.setServiceUuid(Constants.Metaboard_UUID);
+        builder.setServiceUuid(Constants.Metaboard_UUID);
         scanFilters.add(builder.build());
 
         return scanFilters;
