@@ -17,7 +17,6 @@
 package com.zenser.ble;
 
 import android.bluetooth.BluetoothAdapter;
-import android.bluetooth.BluetoothClass;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.le.BluetoothLeScanner;
 import android.bluetooth.le.ScanCallback;
@@ -140,12 +139,12 @@ public class ScannerFragment extends ListFragment {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
-        switch (item.getItemId()) {
-            case R.id.refresh:
-                startScanning();
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
+        int i = item.getItemId();
+        if (i == R.id.refresh) {
+            startScanning();
+            return true;
+        } else {
+            return super.onOptionsItemSelected(item);
         }
     }
 

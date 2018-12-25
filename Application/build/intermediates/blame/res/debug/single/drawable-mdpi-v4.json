@@ -128,6 +128,10 @@
         "source": "/Users/Zelus/.android/build-cache/6d90689bd7de38b12bdae58ba1320bba5bbfeb0a/output/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
     },
     {
+        "merged": "/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png",
         "source": "/Users/Zelus/.android/build-cache/14c29bb8e72a092580c1e3fc8b18b8d41b2b3e1f/output/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
@@ -194,6 +198,10 @@
     {
         "merged": "/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png",
         "source": "/Users/Zelus/.android/build-cache/14c29bb8e72a092580c1e3fc8b18b8d41b2b3e1f/output/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_action_refresh.png",
+        "source": "/Users/Zelus/Documents/workspace/BluetoothScanner/Application/src/main/res/drawable-mdpi/ic_action_refresh.png"
     },
     {
         "merged": "/Users/Zelus/Documents/workspace/BluetoothScanner/Application/build/intermediates/res/merged/debug/drawable-mdpi-v4/notification_bg_normal.9.png",
